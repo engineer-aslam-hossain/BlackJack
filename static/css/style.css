@@ -1,0 +1,47 @@
+.container-5{
+    border: solid black 1px;
+    text-align: center;
+    margin:0 auto;
+    width: 75%;
+    margin-top: 20px;
+}
+
+.flex-blackjack-row-1 , .flex-blackjack-row-2 , .flex-blackjack-row-3{
+    display: flex;
+    border: black 1px solid;
+    padding: 20px;
+    /* margin: 10px; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.flex-blackjack-row-1 ,.flex-blackjack-row-2{
+    background: url('/static/images/table-back.png')center;
+    color: #ffffff;
+}
+.flex-blackjack-row-2 button {
+    border: black 1px solid;
+    padding: 10px;
+}
+.flex-blackjack-row-2 div {
+    border: black 1px solid;
+    padding: 10px;
+}
+.table ,th ,td {
+    border: black 1px solid;
+    padding: 5px;
+}
+
+.flex-blackjack-row-1 div{
+    
+    border: solid black 1px;
+    text-align: center;
+    padding:10px;
+    height:350px ;
+    flex: 1;
+}
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}

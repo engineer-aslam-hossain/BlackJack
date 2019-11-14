@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Js-Learning</title>
+</head>
+<body>
+
+    <div class="container-5">
+            <h2>Challenge 6: BlackJack</h2>
+            <h3><span id="blackjack-result">Let's Play</span></h3>
+
+            <div class="flex-blackjack-row-1">
+                    <div id="your-box">
+                        <h3>You: <span id="your-blackjack-result">0</span></h3>
+                    </div>
+                    <div id="dealer-box">
+                        <h3>Dealer: <span id="dealer-blackjack-result">0</span></h3>
+                    </div>
+            </div>
+
+            <div class="flex-blackjack-row-2">
+                <div>
+                    <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">Hit</button>
+                    <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button">Stand</button>
+                    <button class="btn-lg btn-danger mr-2" id="blackjack-deal-button">Deal</button>
+                </div>
+            </div>
+
+            <div class="flex-blackjack-row-3">
+                    <table>
+                            <tr>
+                                    <th>Wins</th>
+                                    <th>Losses</th>
+                                    <th>Draws</th>
+                            </tr>
+                            <tr>
+                                    <td ><span id="win">0</span></td>
+                                    <td ><span id="losses">0</span></td>
+                                    <td ><span id="draws">0</span></td>
+                            </tr>
+                    </table>
+            </div>
+    </div>
+
+
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
